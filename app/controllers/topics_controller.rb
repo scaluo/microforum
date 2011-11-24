@@ -97,7 +97,7 @@ class TopicsController < ApplicationController
   end
 
   def get_categories
-   @categories = Category.all
+   @categories = Category.order("name")
 
   end
 end

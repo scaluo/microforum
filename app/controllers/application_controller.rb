@@ -13,7 +13,11 @@ class ApplicationController < ActionController::Base
      I18n.locale = session[:locale]||I18n.default_locale
 
   end
-
+  def authenticate
+    authenticate_or_request_with_http_basic do |user_name, password|
+      user_name == 'scaluo' && password == 'bg3721_monkey'
+    end
+  end
 
 
 

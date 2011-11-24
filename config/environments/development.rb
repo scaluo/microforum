@@ -36,8 +36,8 @@ Microforum::Application.configure do
        :port => 25,
        :domain => "163.com",
        :authentication => :login,
-       :user_name => "username@163.com",
-       :password => "password"
+       :user_name => "sc_aluo@163.com",
+       :password => "monkey_71"
      }
 
 

@@ -6,6 +6,7 @@ Microforum::Application.routes.draw do
   devise_for :users
 
   get "home/index"
+  get "home/init"
   root :to=>'topics#index'
 
   # The priority is based upon order of creation:
