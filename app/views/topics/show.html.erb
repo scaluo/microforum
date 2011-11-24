@@ -1,0 +1,23 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+<div class="postsbox">
+  <div class="poststitle"><%= @topic.title %></div>
+  <div class="postsinfo"><%=t(:posted_by)%> <%= @topic.user.username %> <%=t(:posted_on)%>  <%=@topic.created_at.to_date%>--------------<%=link_to @topic.category.name,topics_path(:category_id=>@topic.category.id) %></div>
+  <div class="postscontent"><%= simple_format @topic.content %></div>
+  <%if user_signed_in? && current_user==@topic.user%>
+  <div class="postsfoot"><%= link_to t(:edit), edit_topic_path(@topic) %> |
+     <%= link_to t(:delete), topic_path(@topic),:method=>:delete,:confirm=>t(:delete_confirm)%>
+  </div>
+  <% end %>
+</div>
+<%=render :partial => 'replies/reply',:collection => @topic.replies%>
+<div class="postsbox">
+  <p class="title"><%=t(:post_reply)%></p>
+ <%if user_signed_in?%>
+
+   <%=render :partial => 'replies/form'%>
+ <%else%>
+   <p> <%=t(:please_login)%> </p>
+ <%end%>
+ </div>

@@ -1,0 +1,5 @@
+﻿<p><%=t(:welcome)%> <%= @resource.username %>!</p>
+
+<p><%=t(:confirm_account)%>:</p>
+
+<p><%= link_to confirmation_url(@resource, :confirmation_token => @resource.confirmation_token), confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %></p>

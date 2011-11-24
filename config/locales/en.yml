@@ -1,0 +1,43 @@
+﻿# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  hello: "Hello world"
+  logo: Micro Forum
+  home: Home
+  register: Register
+  login: Login
+  login_out: Login out
+  forget_password: Forgot your password
+  re_receive_confirm: Didn't receive confirmation instructions
+
+  email: Email
+  user_name: UserName
+  password: Password
+  password_confirm: Password Confirm
+  remember_me: Remember me
+  send_password: Send me reset password instructions
+  send_corfirm: Resend confirmation instructions
+
+  welcome: Welcome
+  confirm_account: You can confirm your account through the link below
+
+  new_topic: New topic
+  all: All
+  choose_lan: Choose your language
+  title: Title
+  author: Author
+  category: Category
+  content: Content
+  replies: Replies
+  post_time: PostTime
+  page_previous: ← Previous
+  page_next: Next →
+  submit: Submit
+  delete: Delete
+  edit: Edit
+  delete_confirm: Are you sure delete?
+  posted_by: Posted by
+  posted_on: on
+  please_login: Please Login
+  post_reply: Post Reply

@@ -1,0 +1,17 @@
+ <table class="list">
+  <tr class="headrow">
+    <th class="tdtitle"><%=t(:title)%></th>
+    <th class="tdauthor"><%=t(:author)%></th>
+    <th class="tdreplies"><%=t(:replies)%></th>
+    <th class="tdposttime"><%=t(:post_time)%></th>
+  </tr>
+<% @topics.each do |topic| %>
+  <tr class="<%=cycle('list-line-odd', 'list-line-even') %>">
+    <td class="tdtitle"><%=link_to topic.title,topic %></td>
+    <td class="tdauthor"><%= topic.user.username%></td>
+    <td class="tdreplies"><%= topic.replies.count %></td>
+    <td class="tdposttime"><%= topic.created_at.to_date %></td>
+  </tr>
+<% end %>
+</table>
+<div class="dvpage"><%= will_paginate @topics,:previous_label=>t(:page_previous),:next_label=>t(:page_next) %></div>

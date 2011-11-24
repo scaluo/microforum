@@ -1,0 +1,39 @@
+﻿zh_cn:
+  hello: "Hello world"
+  logo: 微论坛
+  home: 主页
+  register: 注册
+  login: 登录
+  login_out: 退出
+  forget_password: 忘记密码
+  re_receive_confirm: 没有收到验证邮件
+  email: 电子邮箱
+  user_name: 用户名
+  password: 密码
+  password_confirm: 确认密码
+  remember_me: 记住我
+  send_password: 发送密码信息
+  send_corfirm: 发送验证信息
+
+  welcome: 你好！
+  confirm_account: 你可以通过点击下边的链接激活你的账号
+
+  new_topic: 发新帖
+  all: 所有
+  choose_lan: 选择你的语言
+  title: 标题
+  author: 作者
+  category: 版块
+  content: 内容
+  replies: 回复数
+  post_time: 发布时间
+  page_previous: ← 上一页
+  page_next: 下一页 →
+  submit: 确定
+  delete: 删除
+  edit: 编辑
+  delete_confirm: 确认删除吗？
+  posted_by: 作者：
+  posted_on: 时间：
+  please_login: 请登录后发表回复
+  post_reply: 发表回复

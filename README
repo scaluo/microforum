@@ -1,0 +1,9 @@
+This project is a simple forum,two language,english and chinese
+use rails3.1+ruby1.9
+gem use devise,will_paginate,database is sqlite3
+if your use
+1、rake db:create
+2、rake db:migrate
+3、add category data to category table
+4、modify development.rb,use your self smtp config
+5、modify devise.rb,set mailer_sender

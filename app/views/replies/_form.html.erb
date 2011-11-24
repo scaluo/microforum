@@ -1,0 +1,9 @@
+<%=form_for([@topic,@topic.replies.build]) do |f|%>
+  <p>
+
+	<%=f.text_area :content%><br/>
+  </p>
+  <div class="actions">
+    <%=f.submit t(:post_reply)%>
+  </div>
+<%end%>
