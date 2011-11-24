@@ -5,8 +5,15 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-gem 'pg'
+group :production do
+  gem "pg"
+end
+
+
+
+group :development, :test do
+  gem 'sqlite3'
+end
 
 
 # Gems used only for assets and not required
@@ -43,3 +50,4 @@ group :test,:development do
 
 end
 gem 'will_paginate', '~> 3.0'
+
