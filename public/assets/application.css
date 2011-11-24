@@ -1,0 +1,219 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+
+       body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+         margin: 0;
+         padding: 0;
+         line-height: 1.5;
+       }
+       body
+       {
+           text-align:center;
+           font-family: Arial,Helvetica,sans-serif;
+           font-size: 14px;
+        }
+
+
+        #wrap
+        {
+          text-align:left;
+          margin:0 auto;
+          width:960px;
+
+        }
+        #brand
+        {
+          color:#aaaaaa;
+          background:#eeeeee;
+          height:40px;
+          padding-bottom:20px;
+        }
+        #logo
+        {
+            font-family: georgia,verdana,sans-serif;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #aa0000;
+            width: 250px;
+            float: left;
+            padding-left: 20px;
+        }
+        #content
+        {
+          width:760px;
+          float:right;
+          padding-top:10px;
+        }
+        #content1
+        {
+            margin: 0 auto;
+            width:500px;
+            padding: 20px;
+
+
+        }
+        #content-left
+        {
+           width:540px;
+           float:left;
+        }
+        #content-right
+        {
+           width:200px;
+           float:right;
+        }
+        #topnav
+        {
+            float: right;
+            padding-top:1px;
+            padding-right:20px;
+        }
+        #nav
+        {
+           width:180px;
+           float:left;
+           padding-top:5px;
+           padding-bottom:20px;
+        }
+        #footer
+        {
+          clear:both;
+          padding-top: 20px;
+
+
+        }
+
+        .navblock
+        {
+            background-color: #eeeeee;
+            font-size:16px;
+            border: 1px solid #CCCCCC;
+            margin-top:5px;
+            padding: 5px;
+
+        }
+        ul
+        {
+          list-style:none;
+         }
+
+         a, a:link, a:visited {
+           color: #A00000;
+           text-decoration: none;
+         }
+         a:hover
+         {
+             text-decoration:underline;
+         }
+
+         table.list {
+            border: 1px solid #CCCCCC;
+            border-collapse: collapse;
+            width: 100%;
+         }
+         table.list th {
+            background-color: #F8F8F8;
+            border-bottom: 1px solid #CCCCCC;
+          }
+         table.list th, td {
+           margin: 0;
+           padding: 2px;
+
+          }
+          .tdtitle
+          {
+            width: 64%;
+
+          }
+          .tdauthor,.tdreplies,.tdposttime
+          {
+            width: 12%;
+          }
+
+          #topic_title
+          {
+              width:450px;
+          }
+          #topic_content
+          {
+              width:450px;
+              height: 300px;
+
+          }
+
+          .field
+          {
+              width:500px;
+          }
+          .list-line-odd
+          {
+              background-color: #eeeeee;
+          }
+          .list-line-even
+          {
+              background-color: #ffffff;
+          }
+          #notice,#alert
+          {
+              background-color: #ddffdd;
+              border: 1px solid #66ee66;
+              padding: 5px;
+
+          }
+          #error_explanation
+          {
+              background-color: #ffdddd;
+              border: 1px solid #ee6666;
+              padding: 5px;
+              color: #666666;
+          }
+          .dvpage
+          {
+              font-weight: bold;
+              text-align: right;
+              padding-top: 10px;
+          }
+
+          .postsbox
+          {
+              background-color: #F8F8F8;
+              border: 1px solid #cccccc;
+              margin-bottom: 0.8ex;
+
+              padding: 1ex;
+
+          }
+          .poststitle
+          {
+            font-size: 18px;
+            font-weight: bold;
+            color: #DA0006;
+            border-bottom: 1px solid #cccccc;
+          }
+          .postsinfo
+          {
+             font-size: 0.8em;
+              color:#666666;
+             padding:2px;
+          }
+          .postsfoot
+          {
+              text-align: right;
+              padding-right: 20px;
+              padding-top: 20px;
+          }
+
+          #reply_content
+          {
+              width: 400px;
+              height: 150px;
+          }
+          .title
+          {
+             font-size: 18px;
+            font-weight: bold;
+            color: #DA0006;
+          }
