@@ -11,21 +11,12 @@
    <div id="brand">
      <div id="logo"><%=t(:logo)%></div>
      <div id="topnav">
-       <%=link_to t(:home),root_path%> |
-      <% if user_signed_in?  %>
-        <%=link_to t(:new_topic),new_topic_path%> |
-        <%=current_user.username%> |
-        <%=link_to t(:login_out),destroy_user_session_path,:method=>'delete'%>
-      <% else %>
-        <%=link_to t(:register),new_user_registration_path%> |
-        <%=link_to t(:login),new_user_session_path%>
-      <% end %>
+       <%=render :partial=>'share/nav' %>
      </div>
    </div>
    <div id="content1">
      <%=render :partial=>'share/notice'%>
-
-    <%= yield %>
+     <%= yield %>
    </div>
    <div id="footer"><hr/><%=render :partial=>'share/foot'%></div>
 </div>
