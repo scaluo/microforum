@@ -32,12 +32,12 @@ Microforum::Application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-       :address => "smtp.163.com",
+       :address => "***.163.com",
        :port => 25,
        :domain => "163.com",
        :authentication => :login,
-       :user_name => "sc_aluo@163.com",
-       :password => "monkey_71"
+       :user_name => "***@163.com",
+       :password => "***"
      }
 
 

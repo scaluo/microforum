@@ -59,7 +59,7 @@ Microforum::Application.configure do
   config.active_support.deprecation = :notify
 
 
-  config.action_mailer.default_url_options={:host=>'microforum.heroku.com'}
+  config.action_mailer.default_url_options={:host=>'***'}
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
@@ -67,8 +67,8 @@ Microforum::Application.configure do
        :port => 25,
        :domain => "163.com",
        :authentication => :login,
-       :user_name => "sc_aluo@163.com",
-       :password => "monkey_71"
+       :user_name => "***@163.com",
+       :password => "***"
      }
 
 end
